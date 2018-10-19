@@ -1,0 +1,24 @@
+@media screen and (max-width: 991px) {
+    header {
+        height: 80px;
+    }
+    .navbar-toggler {
+        background-color: white;
+    }
+    .services,
+    .how-to-donate {
+        display: flex;
+        flex-direction: column;
+    }
+    .description p {
+        width: 100%
+    }
+    .langs {
+        display: flex;
+        flex-direction: row
+    }
+    .description {
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+}
