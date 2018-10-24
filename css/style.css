@@ -1,0 +1,207 @@
+header {
+  background: rgba(97, 97, 97, 0.5);
+}
+
+header .navbar {
+  padding: 0;
+  margin: 0;
+  background: rgba(97, 97, 97, 0.5);
+}
+
+.navbar-nav > li > a {
+  /* (80px - line-height of 27px) / 2 = 26.5px */
+  padding-top: 26.5px;
+  padding-bottom: 26.5px;
+  line-height: 27px;
+  height: 80px;
+}
+
+.nav-item {
+  margin: 0 1rem !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.active {
+  color: rgb(233, 83, 124) !important;
+}
+
+.nav-link:hover {
+  color: rgb(233, 83, 124) !important;
+  transition: 0.4s;
+}
+
+#donate {
+  width: 200px;
+  background: rgb(233, 83, 124);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  padding-top: 26.5px;
+  padding-bottom: 26.5px;
+  line-height: 27px;
+}
+
+#donate:hover {
+  background: rgba(233, 83, 124, 0.8);
+}
+
+.menu {
+  background: url("../images/bg.jpg");
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.menu-text {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.services div {
+  text-align: center;
+  padding: 37.5px 0;
+  height: 150px;
+  flex-grow: 1;
+}
+
+.mission {
+  background: rgb(233, 83, 124);
+}
+
+.events {
+  background: rgb(113, 161, 242);
+}
+
+.involved {
+  background: rgb(30, 55, 129);
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phrase {
+  text-align: center;
+  background: rgb(30, 55, 129);
+  height: 300px;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  padding-top: 100px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.phrase :nth-child(1) {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.section-events {
+  margin-top: 40px;
+}
+
+.description p {
+  margin-bottom: 50px;
+}
+
+.carousel img {
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  outline: none;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 27px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 10px;
+}
+
+.contact {
+  text-align: center;
+  padding: 50px 40px;
+}
+
+input[type="submit"] {
+  color: rgb(30, 55, 129);
+}
+
+.contact h3 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.section-support {
+  margin-top: 50px;
+}
+
+.support-text {
+  text-align: center;
+}
+
+.btn-more {
+  padding: 5px;
+  text-align: center;
+  width: 200px;
+  background: rgb(233, 83, 124);
+  color: #fff;
+}
+
+.btn-more:hover {
+  color: #fff;
+  background: rgba(233, 83, 124, 0.8);
+}
+
+.one-image-slider {
+  background: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.how-to-donate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.how-to-donate div {
+  text-align: center;
+  padding: 37.5px 0;
+  height: 250px;
+  flex-grow: 1;
+}
+
+.personally {
+  background: rgb(233, 83, 124);
+}
+
+.online {
+  background: rgb(113, 161, 242);
+}
+
+.calling {
+  background: rgb(30, 55, 129);
+}
